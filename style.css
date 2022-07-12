@@ -1,0 +1,165 @@
+/* 
+font-family: 'Merriweather', serif;
+font-family: 'Noto Serif', serif; */
+
+/* reseteo de CSS */
+*{
+    margin:  00;
+    padding: 00;
+}
+
+
+   /* HEADER */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    align-items: flex-end;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+ul{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    width: 500px;
+    list-style: none;
+    flex-wrap: wrap;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.flex__container__item{
+    margin-left: 15px;
+}
+   /* MAIN */
+
+.segundoTitulo{
+    padding: 5px;
+    margin-top: 10px;
+}
+.seccionmain{
+    display: flex;
+    margin: 10px;
+}
+.main__p{
+    padding-right: 20px;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+.image__lista{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+   /* CONTACTO*/
+
+.form{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    width: 100%;
+    padding-top: 10px;
+}
+.botonContacto{
+    display: flex;
+    justify-content: center;
+}
+.boton_contact{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 20px;
+    margin-left: -90px;
+}
+.imagenContacto{
+margin-left: 20px;
+}
+.botonContacto{
+    display: flex;
+    margin: 200px;
+}
+.formulario{
+    border: solid 1px black;
+    padding: 10px;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+
+   /* ¿QUIEN SOY? */
+
+.seccion__quiensoy{
+    display: flex;
+    margin: 10px;
+    
+}
+.seccion2quiensoy{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    width: 100%;
+}
+
+   /* SERVICIOS */
+
+.seccionServicios{
+    display: flex;
+    padding: 15px;
+}
+.botonServicios1{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.seccionServicios_segundo{
+    display: flex;
+    padding: 10px;
+}
+.primeraseccion__p{
+    padding-right: 10px;
+    padding: 10px;
+}
+.segundaSeccion__p{
+    padding-right: 10px;
+}
+
+   /* TIENDA */
+
+.secciontienda{
+    display: flex;
+    padding: 10px;
+}
+.tienda_p{
+    padding-right: 10px;
+}
+
+   /* FOOTER */
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    border-top: solid 1px black;
+}
+.ul_footer{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: flex-start;   
+    flex-wrap: nowrap;
+}
+h4{
+    padding: 15px;
+}
